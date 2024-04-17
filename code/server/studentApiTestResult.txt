@@ -1,0 +1,132 @@
+Server listening at http://localhost:3001
+
+
+  test internalOrder apis
+    1) "before each" hook for "test drop /api/internalOrder/emergenza (deleting data...)"
+
+  test item apis
+    2) "before each" hook for "test drop /api/item/emergenza (deleting data...)"
+
+  test position apis
+    test position post api
+      3) "before each" hook for "test post /api/position --- body:data"
+
+  test restockOrder apis
+    4) "before each" hook for "test /api/restockOrder/emergenza (deleting data...)"
+
+  test ReturnOrder apis
+    test returnOrder post api
+      5) "before each" hook for "test post /api/returnOrder --- body:data"
+
+  test SKU apis
+    test sku post api
+      6) "before each" hook for "test post /api/sku --- body:data"
+
+  test skuitem apis
+    7) "before each" hook for "test /api/skuitem/emergenza (deleting data...)"
+
+  test TestDescriptor apis
+    8) "before each" hook for "test /api/testDescriptor/emergenza/superermergenza (deleting data...)"
+
+  test testResult apis
+    9) "before each" hook for "test /api/skuitems/rfid/testResults/emergenza (deleting data...)"
+
+  test user apis
+    10) "before each" hook for "test post /api/newUser"
+
+
+  0 passing (15ms)
+  10 failing
+
+  1) test internalOrder apis
+       "before each" hook for "test drop /api/internalOrder/emergenza (deleting data...)":
+     TypeError: Cannot read properties of undefined (reading 'address')
+      at serverAddress (node_modules\chai-http\lib\request.js:282:18)
+      at new Test (node_modules\chai-http\lib\request.js:271:53)
+      at TestAgent.<computed> (node_modules\chai-http\lib\request.js:331:15)
+      at Context.<anonymous> (test\testInternalOrder.js:27:27)
+      at processImmediate (node:internal/timers:466:21)
+
+  2) test item apis
+       "before each" hook for "test drop /api/item/emergenza (deleting data...)":
+     TypeError: Cannot read properties of undefined (reading 'address')
+      at serverAddress (node_modules\chai-http\lib\request.js:282:18)
+      at new Test (node_modules\chai-http\lib\request.js:271:53)
+      at TestAgent.<computed> (node_modules\chai-http\lib\request.js:331:15)
+      at Context.<anonymous> (test\testItem.js:34:27)
+      at processImmediate (node:internal/timers:466:21)
+
+  3) test position apis
+       "before each" hook for "test post /api/position --- body:data":
+     TypeError: Cannot read properties of undefined (reading 'address')
+      at serverAddress (node_modules\chai-http\lib\request.js:282:18)
+      at new Test (node_modules\chai-http\lib\request.js:271:53)
+      at TestAgent.<computed> (node_modules\chai-http\lib\request.js:331:15)
+      at Context.<anonymous> (test\testPosition.js:12:27)
+      at processImmediate (node:internal/timers:466:21)
+
+  4) test restockOrder apis
+       "before each" hook for "test /api/restockOrder/emergenza (deleting data...)":
+     TypeError: Cannot read properties of undefined (reading 'address')
+      at serverAddress (node_modules\chai-http\lib\request.js:282:18)
+      at new Test (node_modules\chai-http\lib\request.js:271:53)
+      at TestAgent.<computed> (node_modules\chai-http\lib\request.js:331:15)
+      at Context.<anonymous> (test\testRestockOrder.js:13:27)
+      at processImmediate (node:internal/timers:466:21)
+
+  5) test ReturnOrder apis
+       "before each" hook for "test post /api/returnOrder --- body:data":
+     TypeError: Cannot read properties of undefined (reading 'address')
+      at serverAddress (node_modules\chai-http\lib\request.js:282:18)
+      at new Test (node_modules\chai-http\lib\request.js:271:53)
+      at TestAgent.<computed> (node_modules\chai-http\lib\request.js:331:15)
+      at Context.<anonymous> (test\testReturnOrder.js:12:27)
+      at processImmediate (node:internal/timers:466:21)
+
+  6) test SKU apis
+       "before each" hook for "test post /api/sku --- body:data":
+     TypeError: Cannot read properties of undefined (reading 'address')
+      at serverAddress (node_modules\chai-http\lib\request.js:282:18)
+      at new Test (node_modules\chai-http\lib\request.js:271:53)
+      at TestAgent.<computed> (node_modules\chai-http\lib\request.js:331:15)
+      at Context.<anonymous> (test\testSku.js:12:27)
+      at processImmediate (node:internal/timers:466:21)
+
+  7) test skuitem apis
+       "before each" hook for "test /api/skuitem/emergenza (deleting data...)":
+     TypeError: Cannot read properties of undefined (reading 'address')
+      at serverAddress (node_modules\chai-http\lib\request.js:282:18)
+      at new Test (node_modules\chai-http\lib\request.js:271:53)
+      at TestAgent.<computed> (node_modules\chai-http\lib\request.js:331:15)
+      at Context.<anonymous> (test\testSkuitem.js:32:27)
+      at processImmediate (node:internal/timers:466:21)
+
+  8) test TestDescriptor apis
+       "before each" hook for "test /api/testDescriptor/emergenza/superermergenza (deleting data...)":
+     TypeError: Cannot read properties of undefined (reading 'address')
+      at serverAddress (node_modules\chai-http\lib\request.js:282:18)
+      at new Test (node_modules\chai-http\lib\request.js:271:53)
+      at TestAgent.<computed> (node_modules\chai-http\lib\request.js:331:15)
+      at Context.<anonymous> (test\testTestDescriptor.js:42:27)
+      at processImmediate (node:internal/timers:466:21)
+
+  9) test testResult apis
+       "before each" hook for "test /api/skuitems/rfid/testResults/emergenza (deleting data...)":
+     TypeError: Cannot read properties of undefined (reading 'address')
+      at serverAddress (node_modules\chai-http\lib\request.js:282:18)
+      at new Test (node_modules\chai-http\lib\request.js:271:53)
+      at TestAgent.<computed> (node_modules\chai-http\lib\request.js:331:15)
+      at Context.<anonymous> (test\testTestResults.js:53:27)
+      at processImmediate (node:internal/timers:466:21)
+
+  10) test user apis
+       "before each" hook for "test post /api/newUser":
+     TypeError: Cannot read properties of undefined (reading 'address')
+      at serverAddress (node_modules\chai-http\lib\request.js:282:18)
+      at new Test (node_modules\chai-http\lib\request.js:271:53)
+      at TestAgent.<computed> (node_modules\chai-http\lib\request.js:331:15)
+      at Context.<anonymous> (test\testUser.js:60:27)
+      at processImmediate (node:internal/timers:466:21)
+
+
+
